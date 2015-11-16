@@ -1,0 +1,25 @@
+{
+  "name": "dan/core-laravel",
+  "description": "Shared utilities for other packages and enhancing my Laravel experience.",
+  "license": "MIT",
+  "keywords": ["laravel"],
+  "authors": [
+    {
+      "name": "Dan Richards",
+      "email": "danrichardsri@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "laravel/framework": "~5.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dan\\Core\\": "src/Dan/Core/"
+    }
+  },
+  "minimum-stability": "dev"
+}
