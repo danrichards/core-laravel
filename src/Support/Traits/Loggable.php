@@ -2,8 +2,8 @@
 
 namespace Dan\Core\Support\Traits;
 
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 
 /**
  * Class Loggable
